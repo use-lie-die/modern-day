@@ -1021,7 +1021,7 @@ MOL = {
 
 	tier = principality
 	
-	cultures = { romanian }
+	cultures = { moldavian }
 	capital = STATE_BESSARABIA
 	is_named_from_capital = yes
 }
