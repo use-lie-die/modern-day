@@ -1085,7 +1085,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:AUS = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 1499608
@@ -1102,7 +1102,7 @@
 		}
 	}
 	s:STATE_MORAVIA = {
-		region_state:AUS = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 480408
@@ -1172,12 +1172,18 @@
 				size = 104000
 			}
 			create_pop = {
-				culture = polish
-				size = 20000
-			}
-			create_pop = {
 				culture = ashkenazi
 				size = 5000
+			}
+		}
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 125000
+			}
+			create_pop = {
+				culture = north_german
+				size = 73000
 			}
 		}
 	}

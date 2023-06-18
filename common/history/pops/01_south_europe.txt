@@ -570,7 +570,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:AUS = {
+		region_state:SLO = {
 			create_pop = {
 				culture = slovene
 				size = 464400
@@ -582,7 +582,7 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 297796
@@ -598,7 +598,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 563592
@@ -623,7 +623,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 282048
@@ -641,9 +641,15 @@
 				size = 20140
 			}
 		}
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 25000
+			}
+		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:AUS = {
+		region_state:SLO = {
 			create_pop = {
 				culture = north_italian
 				size = 197800

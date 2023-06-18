@@ -687,10 +687,10 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:AUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
-				size = 1740004
+				size = 2130004
 			}
 			create_pop = {
 				culture = south_german
@@ -703,24 +703,6 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 136000
-			}
-		}
-		region_state:KRA = {
-			create_pop = {
-				culture = polish
-				size = 172396
-			}
-			create_pop = {
-				culture = south_german
-				size = 4000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 32004
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 16000
 			}
 		}
 	}
@@ -745,7 +727,7 @@
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 989200
@@ -809,7 +791,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 1375796
@@ -848,7 +830,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:AUS = {
+		region_state:SER = {
 			create_pop = {
 				culture = south_german
 				size = 197200
@@ -914,7 +896,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:SLV = {
 			create_pop = {
 				culture = hungarian
 				size = 237000
@@ -947,7 +929,7 @@
 		}
 	}
 	s:STATE_EAST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:SLV = {
 			create_pop = {
 				culture = hungarian
 				size = 150848
