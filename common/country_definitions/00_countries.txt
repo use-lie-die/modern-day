@@ -1,4 +1,16 @@
-﻿GER = {
+﻿### North Macedonian
+NMC = {
+	color = { 224 146 67 }
+	
+	country_type = recognized
+
+	tier = dutch
+	
+	cultures = { macedonian greek }
+	capital = STATE_SKOPIA
+}
+
+GER = {
 	color = { 147 130 110 }
 	
 	country_type = recognized
@@ -1021,8 +1033,8 @@ MOL = {
 
 	tier = principality
 	
-	cultures = { moldavian }
-	capital = STATE_BESSARABIA
+	cultures = { moldavian romanian }
+	capital = STATE_MOLDAVIA
 	is_named_from_capital = yes
 }
 

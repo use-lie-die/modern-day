@@ -48,11 +48,11 @@
 		region_state:BYE = {
 			create_pop = {
 				culture = polish
-				size = 143992
+				size = 111992
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 698996
+				size = 600996
 			}
 			create_pop = {
 				culture = lithuanian
@@ -62,7 +62,7 @@
 			create_pop = {
 				culture = byelorussian
 				religion = catholic
-				size = 300000
+				size = 250000
 			}
 			create_pop = {
 				culture = ukrainian
@@ -77,6 +77,20 @@
 				size = 95996
 			}
 		}
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 32500
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 99500
+			}
+			create_pop = {
+				culture = byelorussian
+				religion = catholic
+				size = 23000
+			}
 	}
 	s:STATE_VOLHYNIA = {
 		region_state:UKR = {
@@ -642,7 +656,7 @@
 		region_state:POL = {
 			create_pop = {
 				culture = north_german
-				size = 629796
+				size = 130796
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -651,17 +665,48 @@
 			create_pop = {
 				culture = lithuanian
 				religion = protestant
-				size = 117196
+				size = 101196
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 81200
+				size = 72200
 			}
 			create_pop = {
 				culture = polish
 				religion = protestant
-				size = 28000
+				size = 25000
+			}
+			create_pop = {
+				culture = polish
+				size = 212000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				religion = catholic
+				size = 11500
+			}
+			create_pop = {
+				culture = russian
+				size = 34600
+			}
+			create_pop = {
+				culture = lithuanian
+				religion = orthodox
+				size = 17000
+			}
+		}
+		region_state:LIT = {
+			create_pop = {
+				culture = lithuanian
+				religion = orthodox
+				size = 3200
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 11000
 			}
 		}
 	}
@@ -1061,18 +1106,13 @@
 				culture = romanian
 				size = 1094208
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = romanian
-				size = 10000
-			}
 		}
 	}
 	s:STATE_BESSARABIA = {
 		region_state:MOL = {
 			create_pop = {
 				culture = romanian
-				size = 230396
+				size = 170396
 			}
 			create_pop = {
 				culture = bulgarian
@@ -1080,20 +1120,44 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 95996
+				size = 75996
 			}
 			create_pop = {
 				culture = turkish
 				religion = orthodox
-				size = 32000
+				size = 22000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 40000
+				size = 55000
 			}
 			create_pop = {
 				culture = moldavian
-				size = 651000
+				size = 599000
+			}
+		}
+		region_state:UKR = {
+			create_pop = {
+				culture = romanian
+				size = 37000
+			}
+			create_pop = {
+				culture = moldavian
+				size = 55000
+			}
+			create_pop = {
+				culture = moldavian
+				religion = protestant
+				size = 3200
+			}
+			create_pop = {
+				culture = moldavian
+				religion = catholic
+				size = 7700
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 35000
 			}
 		}
 	}

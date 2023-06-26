@@ -343,7 +343,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 100012
+				size = 17000
 			}
 			create_pop = {
 				culture = sephardic
@@ -364,6 +364,16 @@
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 3000
+			}
+		}
+		region_state:CYP = {
+			create_pop = {
+				culture = turkish
+				size = 23000
+			}
+			create_pop = {
+				culture = greek
+				size = 87322
 			}
 		}
 	}
