@@ -3006,8 +3006,13 @@ STATES = {
 	}
 	s:STATE_ULSTER = {
 		create_state = {
+			country = c:IRE
+			owned_provinces = { xA0C0E0 }
+		}
+		
+		create_state = {
 			country = c:GBR
-			owned_provinces = { x688E79 x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 }
+			owned_provinces = { x688E79 x0A38AF x2BE1C8 xCFCD2B xAA6FA1 x20E040 xA06040 }
 			state_type = unincorporated
 		}
 		
@@ -3017,18 +3022,16 @@ STATES = {
 	}
 	s:STATE_MUNSTER = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { xEF3F71 xE06040 xF53F9B xBDAB32 xA0E0C0 x849939 x02061B xECB3A5 x969279 xD9BB34 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = irish
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { xA0E040 xA2A933 x1E9CB2 xAEAF93 x2060C0 xCC3E24 x5B3F6F x5086D4 x60E040 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = irish
@@ -6547,36 +6550,21 @@ STATES = {
 	s:STATE_DAGESTAN = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { x9F1D8F xDA5ABE x72A1AB x41D080 x205781 x0BDBDA x537501 x2C776A x5C32EA x9CDC20 x9A6A44 xBD38C5 x4C6398 x01D041 x27E9C3 x676C0E }
-			state_type = unincorporated
-
-		}
-		create_state = {
-			country = c:CHC
-			owned_provinces = { x8FD393 xC09041 x019041 xDA8EF4 x0F3A99 x3B6A9E x84A24F xC01040 }
+			owned_provinces = { x8FD393 xC09041 x019041 xDA8EF4 x0F3A99 x3B6A9E x84A24F xC01040 x9F1D8F xDA5ABE x72A1AB x41D080 x205781 x0BDBDA x537501 x2C776A x5C32EA x9CDC20 x9A6A44 xBD38C5 x4C6398 x01D041 x27E9C3 x676C0E }
 		}
 		
 		add_homeland = north_caucasian
-		add_claim = c:CHC
-		add_claim = c:RUS
 	}
 	s:STATE_KUBAN = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { x522F82 xE6667B x80D080 x0E69B9 x33CC4D x6F16AA x469A99 x191F70 xF51533 x3C9016 x76B63F x708C99  x16687C x9809B7 x89223D x3E954F xBC214C x9BAE11 xF88EA3 xE2E1EB x7685A4 xD7EDE7 xEB2EF5 x9A01E0 xB3593A xE0E16A xF7D005 x929AC4 xA4B654 x32FEBA xAA6E62 x565E50 x6B2515 xC0D001 x9A43C9 x796017 x61D073 x405080 x793FDE xEE9B40 x9B5EC8 x1ED727 x891792 x76C012 }
-			state_type = unincorporated
-		}
-		create_state = {
-			country = c:CIR
-			owned_provinces = { xB63D94 x7BCBCC x6BB70E x2CF115 xC88562 xD5648D x2E1A32 xBCF376 xD9CD9D x83F33B xAF4F59 x2790A8 x56FD87 x668A47 xC05001 x23F98B x405000 x594403 }
+			owned_provinces = { xB63D94 x7BCBCC x6BB70E x2CF115 xC88562 xD5648D x2E1A32 xBCF376 xD9CD9D x83F33B xAF4F59 x2790A8 x56FD87 x668A47 xC05001 x23F98B x405000 x594403 x522F82 xE6667B x80D080 x0E69B9 x33CC4D x6F16AA x469A99 x191F70 xF51533 x3C9016 x76B63F x708C99  x16687C x9809B7 x89223D x3E954F xBC214C x9BAE11 xF88EA3 xE2E1EB x7685A4 xD7EDE7 xEB2EF5 x9A01E0 xB3593A xE0E16A xF7D005 x929AC4 xA4B654 x32FEBA xAA6E62 x565E50 x6B2515 xC0D001 x9A43C9 x796017 x61D073 x405080 x793FDE xEE9B40 x9B5EC8 x1ED727 x891792 x76C012 }
 		}
 		
 		add_homeland = russian
 		add_homeland = ukrainian
 		add_homeland = circassian
 		add_homeland = north_caucasian
-		add_claim = c:CIR
-		add_claim = c:RUS
 	}
 	s:STATE_ASTRAKHAN = {
 		create_state = {
@@ -7111,7 +7099,6 @@ STATES = {
 		create_state = {
 			country = c:POL
 			owned_provinces = { x802161 xE165F5 xDE06BA xC02B8C x2F0D92 xA03316 x24BBED x577EE4 x471A61 x8FE2DB x1CB894 x738072 xC0E0A0 x1F6F99 x0E40DA }
-			state_type = unincorporated
 		}
 		
 		add_homeland = polish
@@ -7120,7 +7107,6 @@ STATES = {
 		create_state = {
 			country = c:POL
 			owned_provinces = { x955F09 x6000DF xA7B86B x9FEDC5 xAB3C62 x5FF022 x29408F x57A53D xD0A0E0 xC061A0 x40DF20 x496950 xE0BB00 xF73169 xEB0783 x44ACBB x51A0E0 xAEB9A5 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = polish
@@ -7301,9 +7287,8 @@ STATES = {
 	}
 	s:STATE_CONNAUGHT = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { x20E0C0 x641238 xE5C4FE xC7847D xA060C0 x5DEF58 x85F13B x656D90 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = irish

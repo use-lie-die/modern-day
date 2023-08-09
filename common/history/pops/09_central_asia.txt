@@ -3,7 +3,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = north_caucasian
-				size = 271100
+				size = 351100
 			}
 			create_pop = {
 				culture = sephardic
@@ -24,22 +24,16 @@
 				size = 45500
 			}
 		}
-		region_state:CHC = {
-			create_pop = {
-				culture = north_caucasian
-				size = 92200
-			}
-		}
 	}
 	s:STATE_KUBAN = {
 		region_state:RUS = {
 			create_pop = {
 				culture = circassian
-				size = 328804
+				size = 859804
 			}
 			create_pop = {
 				culture = north_caucasian
-				size = 218804
+				size = 253804
 			}
 			create_pop = {
 				culture = greek
@@ -56,16 +50,6 @@
 			create_pop = {
 				culture = mongol
 				size = 4000
-			}
-		}
-		region_state:CIR = {
-			create_pop = {
-				culture = circassian
-				size = 531000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 32140
 			}
 		}
 	}

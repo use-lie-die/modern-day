@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:EST = {
+	c:BUL = {
 		effect_starting_technology_tier_4_tech = yes
 		
 		# Laws 
@@ -25,8 +25,9 @@
 			set_interest_group_name = ig_gentry_assembly
 		}
 
-		ig:ig_devout = { 
-			set_interest_group_name = ig_protestant_church 
+		ig:ig_devout = {
+			set_interest_group_name = ig_orthodox_church
+			add_ideology = ideology_patriarchal
 		}
 	}
 }

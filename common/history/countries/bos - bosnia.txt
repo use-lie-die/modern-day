@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:EST = {
+	c:BOS = {
 		effect_starting_technology_tier_4_tech = yes
 		
 		# Laws 
@@ -17,16 +17,15 @@
 		
 		add_taxed_goods = g:liquor
 
-		ig:ig_intelligentsia = {
+		ig:ig_devout = {
+			set_interest_group_name = ig_sunni_madrasahs
 			add_ruling_interest_group = yes
 		}
 
 		ig:ig_landowners = {
 			set_interest_group_name = ig_gentry_assembly
 		}
-
-		ig:ig_devout = { 
-			set_interest_group_name = ig_protestant_church 
-		}
+		
+		
 	}
 }

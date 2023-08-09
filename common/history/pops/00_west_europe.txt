@@ -390,11 +390,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 1183122
+				size = 853122
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 407111
+				size = 257111
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -411,9 +411,15 @@
 				size = 101485
 			}
 		}
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 63122
+			}
+		}
 	}
 	s:STATE_MUNSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 2214388
@@ -439,7 +445,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1677581
@@ -474,7 +480,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1319428
